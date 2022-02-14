@@ -1,0 +1,129 @@
+@font-face{
+	font-family: main;
+	src: url(2.ttf);
+}
+
+
+.main {
+	height: 600px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background: none;
+	text-align: center;
+	font-family: main;
+	color: green;
+}
+
+.body {
+	margin: 0;
+	padding: 0;
+	background-image: url(back.jpg);
+	background-size: 100% 100%;
+}
+
+.textbox {
+	height: 170px;
+	background: none;
+	width: 1000px;
+}
+
+.line {
+	height: 170px;
+	width: 1000px;
+	background: none;
+	margin-top: 50px;
+	display: flex;
+}
+
+.card1 {
+	height: 170px;
+	width: 300px;
+	
+	transition: 0.5s;
+	position: absolute;
+	left: 270px;
+	top: 230px;
+	border-radius: 20px;
+	background-image: url(1.jpg);
+	background-size: 100% 100%;
+
+}
+
+.card2 {
+	height: 170px;
+	width: 300px;
+	
+	transition: 0.5s;
+	position: absolute;
+	left: 610px;
+	top: 230px;
+	border-radius: 20px;
+	background-image: url(2.jfif);
+	background-size: 100% 100%;
+}
+
+.card3 {
+	height: 170px;
+	width: 300px;
+	
+	transition: 0.5s;
+	position: absolute;
+	left: 950px;
+	top: 230px;
+	border-radius: 20px;
+	background-image: url(3.jpg);
+	background-size: 100% 100%;
+}
+
+.card4 {
+	height: 170px;
+	width: 300px;
+	
+	transition: 0.5s;
+	position: absolute;
+	left: 270px;
+	top: 450px;
+	border-radius: 20px;
+	background-image: url(4.jfif);
+	background-size: 100% 100%;
+
+}
+
+.card5 {
+	height: 170px;
+	width: 300px;
+	
+	transition: 0.5s;
+	position: absolute;
+	left: 610px;
+	top: 450px;
+	border-radius: 20px;
+	background-image: url(5.jfif);
+	background-size: 100% 100%;
+}
+
+.card6 {
+	height: 170px;
+	width: 300px;
+	
+	transition: 0.5s;
+	position: absolute;
+	left: 950px;
+	top: 450px;
+	border-radius: 20px;
+	background-image: url(6.jpg);
+	background-size: 100% 100%;
+}
+.h {
+	margin-top: 5px;
+}
+
+.btn {
+	height: 40px;
+	border-radius: 50px;
+	margin-top: -2px;
+	background: green;
+	color: yellow;
+}
+

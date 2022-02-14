@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="body">
+	<div class="main">
+		<div class="textbox">
+			<h1 class="h">Осталось попыток:</h1>
+			<h1><span class="text">3</span></h1>
+			<h2>Найди Спанч Боба))</h2>
+			<button class="btn">Перемешать</button>
+		</div>
+		<div class="line">
+			<div class="card1 "></div>
+			<div class="card2 "></div>
+			<div class="card3 "></div>
+		</div>
+		<div class="line">
+			<div class="card4 "></div>
+			<div class="card5 " ></div>
+			<div class="card6 "></div>
+		</div>
+	</div>
+
+<script type="text/javascript">
+	
+	let attempts = 3;
+	document.querySelector('.text').innerHTML = attempts;
+
+	document.querySelector(".btn").onclick = function() {
+		document.querySelector(".card1").style.left = "610px";
+		document.querySelector(".card1").style.background = "black";
+		document.querySelector(".card1").style.backgroundImage = "none";
+
+	
+		document.querySelector(".card2").style.left = "270px";
+		document.querySelector(".card2").style.top = "450px";
+		document.querySelector(".card2").style.background = "black";
+		document.querySelector(".card2").style.backgroundImage = "none";
+
+		document.querySelector(".card3").style.left = "270px";
+		document.querySelector(".card3").style.top = "230px";
+		document.querySelector(".card3").style.background = "black";
+		document.querySelector(".card3").style.backgroundImage = "none";
+
+		document.querySelector(".card4").style.left = "950px";
+		document.querySelector(".card4").style.top = "230px";
+		document.querySelector(".card4").style.background = "black";
+		document.querySelector(".card4").style.backgroundImage = "none";
+
+		document.querySelector(".card5").style.left = "950px";
+		document.querySelector(".card5").style.top = "450px";
+		document.querySelector(".card5").style.background = "black";
+		document.querySelector(".card5").style.backgroundImage = "none";
+
+		document.querySelector(".card6").style.left = "610px";
+		document.querySelector(".card6").style.top = "450px";
+		document.querySelector(".card6").style.background = "black";
+		document.querySelector(".card6").style.backgroundImage = "none";
+	}
+		
+		document.querySelector(".card1").onclick = function() {
+			document.querySelector(".card1").style.backgroundImage = "url(1.jpg)";
+			document.querySelector(".card1").style.backgroundSize = "100% 100%";
+			alert("Держи печеньку, молодец :D");
+
+		}
+
+		document.querySelector(".card2").onclick = function() {
+			document.querySelector(".card2").style.backgroundImage = "url(2.jfif)";
+			document.querySelector(".card2").style.backgroundSize = "100% 100%";
+			
+			attempts = attempts - 1;
+			document.querySelector('.text').innerHTML = attempts;
+			if (attempts == 0) {
+				document.querySelector(".main").style.display = "none";
+				alert("u died");
+			}
+
+			if (attempts == 1) {
+				alert("пробуй ещё");
+			}
+
+			if (attempts == 2) {
+				alert("пробуй ещё");
+			}
+
+		}
+
+		document.querySelector(".card3").onclick = function() {
+			document.querySelector(".card3").style.backgroundImage = "url(3.jpg)";
+			document.querySelector(".card3").style.backgroundSize = "100% 100%";
+
+			attempts = attempts - 1;
+			document.querySelector('.text').innerHTML = attempts;
+			if (attempts == 0) {
+				document.querySelector(".main").style.display = "none";
+				alert("u died");
+			}
+
+			if (attempts == 1) {
+				alert("пробуй ещё");
+			}
+
+			if (attempts == 2) {
+				alert("пробуй ещё");
+			}
+
+		}
+
+		document.querySelector(".card4").onclick = function() {
+			document.querySelector(".card4").style.backgroundImage = "url(4.jfif)";
+			document.querySelector(".card4").style.backgroundSize = "100% 100%";
+
+			attempts = attempts - 1;
+			document.querySelector('.text').innerHTML = attempts;
+			if (attempts == 0) {
+				document.querySelector(".main").style.display = "none";
+				alert("u died");
+			}
+
+			if (attempts == 1) {
+				alert("пробуй ещё");
+			}
+
+			if (attempts == 2) {
+				alert("пробуй ещё");
+			}
+
+		}
+
+		document.querySelector(".card5").onclick = function() {
+			document.querySelector(".card5").style.backgroundImage = "url(5.jfif)";
+			document.querySelector(".card5").style.backgroundSize = "100% 100%";
+
+			attempts = attempts - 1;
+			document.querySelector('.text').innerHTML = attempts;
+			if (attempts == 0) {
+				document.querySelector(".main").style.display = "none";
+				alert("u died");
+			}
+
+			if (attempts == 1) {
+				alert("пробуй ещё");
+			}
+
+			if (attempts == 2) {
+				alert("пробуй ещё");
+			}
+
+		}
+
+		document.querySelector(".card6").onclick = function() {
+			document.querySelector(".card6").style.backgroundImage = "url(6.jpg)";
+			document.querySelector(".card6").style.backgroundSize = "100% 100%";
+
+			attempts = attempts - 1;
+			document.querySelector('.text').innerHTML = attempts;
+			if (attempts == 0) {
+				document.querySelector(".main").style.display = "none";
+				alert("u died");
+			}
+
+			if (attempts == 1) {
+				alert("пробуй ещё");
+			}
+
+			if (attempts == 2) {
+				alert("пробуй ещё");
+			}
+
+		}
+
+
+</script>
+</body>
+</html>
